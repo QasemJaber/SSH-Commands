@@ -1,8 +1,7 @@
 # SSH-Commands
-This contains some bash code I created to simplify some secure shell commands.
+This repository contains some bash code I created to simplify some secure shell commands. To find out how to use a certain command, press control + f (command + f on mac), and then type the file name and simply press enter to locate the command.
 
-                 _________________________________________________________________________________________________________
-
+             ________________________________________________________________________________
 gittag.sh:
 
 ----This can either update your tag(delete it, push it, recreate it, and then push again, automatically), delete the specified tag, or make the specified tag.----
@@ -11,8 +10,7 @@ gittag.sh:
 
 **NOTE, if you wish to update a tag and it display's an error message in the middle of the execution and then continue executing anyways, then this means you wrote down the wrong tag name and a new tag was created and pushed to GitHub, and your pre-existing tag has not been updated, make sure to run the "bash gittag.sh update" and type the tag anme correctly to make sure your tag is updated. Once this is compete, delete the tag that you have accidentally created (using "bash gittag.sh delete"), and you will be good to go.**
 
-                 _________________________________________________________________________________________________________
-
+             ________________________________________________________________________________
 gitpush.sh:
 
 ----This will add or remove files from GitHub.----
@@ -21,8 +19,7 @@ gitpush.sh:
 
 **NOTE, if you mistype the file name, it will not change anything in GitHub unless there is a file with that name on GitHub, this may affect that file.**
 
-                 _________________________________________________________________________________________________________
-
+             ________________________________________________________________________________
 gitall.sh:
 
 ----This will add a file to GitHub and then make/update a tag.----
