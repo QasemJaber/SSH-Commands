@@ -23,7 +23,7 @@ push:
 
 --If you put the file in your home/username/bin directory then you can execute the command using "push add/rm "--
 
-**NOTE, if you mistype the file name, it will not change anything in GitHub unless there is a file with that name on GitHub, this may affect that file.**
+**NOTE, if you mistype the file name, it will not change anything in GitHub but if there is a file that already has the mistyped name on GitHub, this may affect that file.**
 
              ________________________________________________________________________________
              
